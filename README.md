@@ -1,14 +1,12 @@
-# Netflix
-Terminal/command
 # Netflix Movie Recommender
-This is a Python-based recommendation engine that suggests movies based on genre and descriptions.
+This is a Python-based recommendation engine that suggests movies based on genre and descriptions using Cosine Similarity.
 
-## Setup
-1. # Netflix Movie Recommender
-This is a Python-based recommendation engine that suggests movies based on genre and descriptions.
+## Features
+* Uses TF-IDF Vectorization to process text.
+* Calculates similarity scores between movie descriptions.
+* Provides top-rated recommendations based on user input.
 
-## Setup
-1. Install dependencies: `pip install pandas scikit-learn`
-2. Run the script: `python recommender.py`
+## Setup & Usage
+1. **Install dependencies:** `pip install pandas scikit-learn`
+2. **Run the script:** `python recommender.py`
 
-2. Run the script: `python recommender.py`
